@@ -19,6 +19,9 @@ defhstatus "screen ^E (^Et) | $USER@^EH"
 # Set 10000 lines of scrollback
 defscrollback 10000
 
+# Select default character encoding
+defutf8 on
+
 # Use the hardware status line
 hardstatus alwayslastline
 hardstatus string '%{= kG}[ %{G}%H %{g}][%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{G} %m-%d-%Y %D %C:%s %A%{g}]'
