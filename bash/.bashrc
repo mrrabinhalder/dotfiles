@@ -4,6 +4,7 @@
 
 export RBENV_ROOT="$HOME/.local/lib/rbenv"
 export PATH="$HOME/.local/bin:$RBENV_ROOT/bin:$PATH"
+export VAGRANT_DEFAULT_PROVIDER=libvirt
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
