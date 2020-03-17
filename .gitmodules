@@ -1,3 +1,6 @@
 [submodule "bash/bash-it"]
 	path = bash/bash-it
 	url = https://github.com/mrrabinhalder/bash-it
+[submodule "local/.local/lib/rbenv"]
+	path = local/.local/lib/rbenv
+	url = https://github.com/rbenv/rbenv
