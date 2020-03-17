@@ -2,7 +2,8 @@
 # ~/.bashrc
 #
 
-export PATH="$HOME/.local/bin:$PATH"
+export RBENV_ROOT="$HOME/.local/lib/rbenv"
+export PATH="$HOME/.local/bin:$RBENV_ROOT/bin:$PATH"
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
