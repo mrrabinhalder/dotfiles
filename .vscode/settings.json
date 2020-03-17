@@ -1,0 +1,12 @@
+{
+  "files.watcherExclude": {
+      "**/.git/objects/**": true,
+      "**/.git/subtree-cache/**": true,
+      "**/node_modules/*/**": true,  
+      "**/bash/bash-it/*/**": true,
+      "**/local/.local/lib/rbenv/*/**": true,
+      "**/local/.local/share/fonts/*/**": true,
+      "**/local/.local/share/icons/*/**": true,
+      "**/local/.local/share/themes/*/**": true,
+    },
+  }
