@@ -1,2 +1,2 @@
-bash/bash-it
-local/.local/lib/rbenv
+**/bash/bash-it/*/**
+**/local/.local/lib/rbenv/*/**
